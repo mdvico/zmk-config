@@ -96,9 +96,9 @@
 
     tri_layer {
       bindings = <
-        &kp F1      &kp F2      &kp F3      &kp F4 &kp F5  				&kp F6     &kp F7       &kp F8        &kp F9    &kp F10
-        &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans &trans         &trans     &kp HOME     &kp PG_DN     &kp PG_UP &kp END
-        &mt LSFT    &trans      &trans      &trans &trans         &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP  &trans    &trans
+        &kp F1      &kp F2      &kp F3      &kp F4 &kp F5  				&kp F6     &kp F7       &kp F8        &kp F9          &kp F10
+        &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans &trans         &kp INS    &kp HOME     &kp PG_DN     &kp PG_UP       &kp END
+        &mt LSFT    &trans      &trans      &trans &trans         &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP  &kp C_PREVIOUS  &kp C_NEXT
         &trans      &trans  		                                  &trans &trans 
         >;
     };	
