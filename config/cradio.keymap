@@ -108,7 +108,7 @@
       bindings = <
         &kp F1      &kp F2      &kp F3      &kp F4 &kp F5                       &kp F6      &kp F7       &kp F8        &kp F9          &kp F10
         &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans &trans                       &kp C_MUTE  &kp C_VOL_DN &kp C_VOL_UP  &kp C_PREVIOUS  &kp C_NEXT
-        &kp LSHIFT  &trans      &trans      &trans &PSCRN                       &kp INS     &kp HOME     &kp PG_DN     &kp PG_UP       &kp END
+        &kp LSHIFT  &trans      &trans      &trans &kp PSCRN                    &kp INS     &kp HOME     &kp PG_DN     &kp PG_UP       &kp END
         &trans      &trans                                                      &trans      &trans 
         >;
     };  
