@@ -54,7 +54,7 @@
 &kp Q           &kp W           &kp E               &kp R             &kp T               &kp Y          &kp U              &kp I                &kp O           &kp P
 &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G               &kp H          &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt LEFT_ALT L  &mt RIGHT_GUI SQT
 &kp Z           &kp X           &kp C               &kp V             &kp B               &kp N          &kp M              &kp COMMA            &kp DOT         &kp ENTER
-                                                    &mt TAB ESC       &kp LEFT_CONTROL    &mt TAB SPACE  &sl 1
+                                                    &mt TAB ESC       &kp LEFT_CONTROL    &mt TAB SPACE  &to 1
             >;
         };
 
@@ -72,16 +72,16 @@
 &kp EXCL  &kp AT     &kp HASH  &kp DLLR   &kp PRCNT    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR
 &none     &kp QMARK  &kp FSLH  &kp COLON  &kp SEMI     &kp MINUS  &none     &kp LBRC         &kp RBRC  &kp BSPC
 &none     &none      &none     &none      &kp BSLH     &kp UNDER  &kp LEFT  &kp DOWN         &kp UP    &kp RIGHT
-                               &to 2      &trans       &trans     &to 3
+                               &to 1      &trans       &trans     &to 3
             >;
         };
 
         layer_three {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4     &kp F5             &kp F6      &kp F7        &kp F8        &kp F9          &kp F10
-&none   &none   &none   &none      &none              &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREVIOUS  &kp C_NEXT
-&none   &none   &none   &none      &kp PRINTSCREEN    &kp INS     &kp HOME      &kp PG_DN     &kp PG_UP       &kp END
-                        &lt 4 ESC  &trans             &trans      &lt 4 ESC
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5             &kp F6      &kp F7        &kp F8        &kp F9          &kp F10
+&none   &none   &none   &none   &none              &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREVIOUS  &kp C_NEXT
+&none   &none   &none   &none   &kp PRINTSCREEN    &kp INS     &kp HOME      &kp PG_DN     &kp PG_UP       &kp END
+                        &to 2   &trans             &trans      &lt 4 ESC
             >;
         };
 
